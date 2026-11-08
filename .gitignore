@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# 本地构建产物（真机 build/device、模拟器等）
+build/
+
+# XcodeGen 生成的工程（source of truth 是 project.yml，克隆后先 xcodegen generate）
+Quilt.xcodeproj
+
+# Xcode 用户态
+xcuserdata/
+*.xcuserstate
+
+# 真机主屏截图（含个人设备与应用布局，不入库）
+docs/screenshots/app-icon-homescreen.png
+docs/screenshots/uitest/18-widget-on-home.png
+docs/screenshots/uitest/18-widget-after-tap.png
+
